@@ -63,13 +63,13 @@ public class BankAccount {
 	int accountBalance=1500;
 
 	private void getBalance() {
-		System.out.println(accountNumber);
+		System.out.println(accountBalance);
 	}
 	private void getName() {
 		System.out.println(accountName);
 	}
 	private void getNumber() {
-		System.out.println(accountBalance);
+		System.out.println(accountNumber);
 	}
       //Entry point of execution
 	public static void main(String [] args){
