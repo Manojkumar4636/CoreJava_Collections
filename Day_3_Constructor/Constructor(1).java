@@ -13,8 +13,8 @@
 
  3 - Types of Constructors    
    =>Default
-   =>No Arguments
-   =>Parameterized
+   =>Arguments
+  
 
 4 - Default Constructor Explained
   =>When we don't provide any Constructor, compiler will provide one.
