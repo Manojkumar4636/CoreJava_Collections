@@ -1,0 +1,59 @@
+/*Array
+-------
+=> We can store multiple values of similar datatype in a single Variable
+=> Array is index based
+=> Index start from 0 to n-1
+=> It is fixed size
+
+SYNTAX
+-------
+One Dimensional Array
+----------------------
+Datatype Variable[] = new Datatype[size]
+
+Two Dimensional Array
+----------------------
+Datatype Variable[][] = new Datatype[size]
+
+--------------------------------|------------------------------------------|
+Normal for loop                 |            enhanced for loop
+--------------------------------|------------------------------------------|
+Index Based                                 Value Based
+---------------------------------------------------------------------------|
+Apply the Condition                         We can't apply the condition
+---------------------------------------------------------------------------|
+Less efficient                              More efficient
+---------------------------------------------------------------------------|
+
+*/
+package com.learn.java.array;
+
+public class ArrayExample {
+	
+	public static void main(String[] args) {
+		
+		int a[] = new int[5];
+		a[0] = 55;
+		a[1] = 67;
+		a[2] = 88;
+		a[3] = 87;
+		a[4] = 12;
+		
+		System.out.println(a[3]);
+		
+		int length = a.length;
+		System.out.println("Length of: "+length);
+		
+		System.out.println("For loop iteration");
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i]);
+		}
+		
+		System.out.println("Foreach loop iteration");
+		for (int i : a) {
+			System.out.println(i);
+		}
+		
+	}
+
+}
