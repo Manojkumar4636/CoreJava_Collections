@@ -19,7 +19,7 @@
 4 - Default Constructor Explained
   =>When we don't provide any Constructor, compiler will provide one.
   =>We cannot see with your eye, it will be in class file.
-  =>Used to provide the default values to the object like 0, null, etc.. depending on the type.
+  =>Used to provide the default values to the object like 0, null, etc... depending on the type.
 
 5 - No Arguments Constructor Explained
   =>No Arguments will be there
