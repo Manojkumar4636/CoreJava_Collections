@@ -16,7 +16,7 @@ Two Dimensional Array
 Datatype Variable[][] = new Datatype[size]
 
 --------------------------------|------------------------------------------|
-Normal for loop                 |            enhanced for loop
+Normal for loop                 |           enhanced for loop
 --------------------------------|------------------------------------------|
 Index Based                                 Value Based
 ---------------------------------------------------------------------------|
