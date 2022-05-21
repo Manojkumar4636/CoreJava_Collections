@@ -2,6 +2,7 @@ package newfolder;
 
 public class CountOfDublicateArray {
 
+	//Particular value how many times repeated that count print
 	public void method1() {
 		int[] given = {10,20,30,10,20,30,10,20,30,40,40};
 		int[] freq = new int[given.length];
@@ -32,6 +33,7 @@ public class CountOfDublicateArray {
 	}
 
 
+	//How many Duplicate count in this array
 	public void method2() {
 		int[] given = {10,20,30,10,20,30,10,20,30,40,40};
 		int[] freq = new int[given.length];
